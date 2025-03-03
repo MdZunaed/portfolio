@@ -730,9 +730,9 @@ _1908: x0 => x0.ignoreCase,
 _1909: x0 => x0.unicode,
 _1910: x0 => x0.dotAll,
 _1911: (x0,x1) => x0.lastIndex = x1,
-_3833: () => globalThis.window,
-_3898: x0 => x0.navigator,
-_4289: x0 => x0.userAgent
+_3828: () => globalThis.window,
+_3893: x0 => x0.navigator,
+_4284: x0 => x0.userAgent
     };
 
     const baseImports = {
