@@ -854,7 +854,7 @@ pY(){return B.c.a8(self.window.performance.now()*1000)},
 aHW(a){if($.aqy!=null)return
 $.aqy=new A.a6M(a.gdS())},
 aHR(a){var s,r,q,p,o,n,m
-$label0$0:for(s=a.length,r=0;r<6;++r){q=B.Et[r]
+$label0$0:for(s=a.length,r=0;r<6;++r){q=B.Es[r]
 p=q.a
 o=p.length
 if(s<o)continue $label0$0
@@ -38827,7 +38827,7 @@ if(r<0||r>285)return-1
 if(r===256)break
 if(r<256){s.pl(r&255)
 continue}q=r-257
-p=B.Fl[q]+l.hy(B.Ev[q])
+p=B.Fl[q]+l.hy(B.Eu[q])
 o=l.AX(b)
 if(o<0||o>29)return-1
 n=B.EO[o]+l.hy(B.Fj[o])
@@ -45273,7 +45273,7 @@ r.e=s.a.a
 r.f=s.d},
 $S:0}
 A.H6.prototype={
-I(a){return A.aqp(new A.mK(B.Ac,null,null),B.aj,new A.qs(1,B.Eu,new A.cE(B.yC,B.n)),this.c.M(0,new A.f(0,40.95)),1.25,B.LY)}}
+I(a){return A.aqp(new A.mK(B.Ac,null,null),B.aj,new A.qs(1,B.Et,new A.cE(B.yC,B.n)),this.c.M(0,new A.f(0,40.95)),1.25,B.LY)}}
 A.nG.prototype={
 F(){return"MaterialType."+this.b}}
 A.wJ.prototype={
@@ -78137,7 +78137,7 @@ A.VS.prototype={
 $2(a,b){return B.xf},
 $S:59}
 A.VR.prototype={
-$2(a,b){return new A.lk(B.En[b],null,null)},
+$2(a,b){return new A.lk(B.EE[b],null,null)},
 $S:114}
 A.Fy.prototype={
 I(a){var s,r,q,p,o=null,n=t.w,m=A.ak(a,o,n).w.a.a,l=A.ak(a,o,n).w.a.a>=1200
@@ -78192,12 +78192,12 @@ $S:471}
 A.HL.prototype={
 I(a){var s=null,r=t.w,q=A.ak(a,s,r).w,p=A.ak(a,s,r).w.a.a>=1200?350:300,o=A.ak(a,s,r).w.a.a>=1200?B.R:B.ad,n=A.ak(a,s,r).w.a.a>=1200?B.aN:B.aN.eB(25)
 r=A.ak(a,s,r).w.a.a>=1200?s:B.ia
-return A.ajW(A.dT(A.a([new A.io("Other Skills :",n,s),B.aM,A.jo(A.a0C(new A.a4D(),5,s,!1,new A.a4E(),!0),s,r,B.dw,!0,s)],t.p),o,B.P),!(q.a.a>=1200),"assets/images/skill.webp",p)}}
+return A.ajW(A.dT(A.a([new A.io("Other Skills :",n,s),B.aM,A.jo(A.a0C(new A.a4D(),6,s,!1,new A.a4E(),!0),s,r,B.dw,!0,s)],t.p),o,B.P),!(q.a.a>=1200),"assets/images/skill.webp",p)}}
 A.a4E.prototype={
 $2(a,b){return B.xf},
 $S:59}
 A.a4D.prototype={
-$2(a,b){return new A.lk(B.EE[b],null,null)},
+$2(a,b){return new A.lk(B.Ev[b],null,null)},
 $S:114}
 A.xq.prototype={
 am(){return new A.P4()}}
@@ -82001,7 +82001,6 @@ B.Ek=A.a(s([B.hq,B.hr]),A.ae("q<ue>"))
 B.Mq=new A.yR("Bachelor of Science","Northern University Bangladesh","Computer Science & Engineering","From 2024 - Running (only weekend)")
 B.Mr=new A.yR("Diploma in Engineering","Munshiganj Polytechnic Institute","Computer Technology","From 2019 to 2023")
 B.El=A.a(s([B.Mq,B.Mr]),A.ae("q<yR>"))
-B.En=A.a(s(["Knowledge in Dart Language","Concept of Dart OOP","Working with Flutter Framework","Working with REST API","State Management (Get-x, Provider)","Local Database & Caching","Google Map Integration","Firebase Push Notification","PlayStore App Publishing","Creating Re-usable Widgets","Writing Clean & Readable Code"]),t.s)
 B.dD=A.a(s([619,720,127,481,931,816,813,233,566,247,985,724,205,454,863,491,741,242,949,214,733,859,335,708,621,574,73,654,730,472,419,436,278,496,867,210,399,680,480,51,878,465,811,169,869,675,611,697,867,561,862,687,507,283,482,129,807,591,733,623,150,238,59,379,684,877,625,169,643,105,170,607,520,932,727,476,693,425,174,647,73,122,335,530,442,853,695,249,445,515,909,545,703,919,874,474,882,500,594,612,641,801,220,162,819,984,589,513,495,799,161,604,958,533,221,400,386,867,600,782,382,596,414,171,516,375,682,485,911,276,98,553,163,354,666,933,424,341,533,870,227,730,475,186,263,647,537,686,600,224,469,68,770,919,190,373,294,822,808,206,184,943,795,384,383,461,404,758,839,887,715,67,618,276,204,918,873,777,604,560,951,160,578,722,79,804,96,409,713,940,652,934,970,447,318,353,859,672,112,785,645,863,803,350,139,93,354,99,820,908,609,772,154,274,580,184,79,626,630,742,653,282,762,623,680,81,927,626,789,125,411,521,938,300,821,78,343,175,128,250,170,774,972,275,999,639,495,78,352,126,857,956,358,619,580,124,737,594,701,612,669,112,134,694,363,992,809,743,168,974,944,375,748,52,600,747,642,182,862,81,344,805,988,739,511,655,814,334,249,515,897,955,664,981,649,113,974,459,893,228,433,837,553,268,926,240,102,654,459,51,686,754,806,760,493,403,415,394,687,700,946,670,656,610,738,392,760,799,887,653,978,321,576,617,626,502,894,679,243,440,680,879,194,572,640,724,926,56,204,700,707,151,457,449,797,195,791,558,945,679,297,59,87,824,713,663,412,693,342,606,134,108,571,364,631,212,174,643,304,329,343,97,430,751,497,314,983,374,822,928,140,206,73,263,980,736,876,478,430,305,170,514,364,692,829,82,855,953,676,246,369,970,294,750,807,827,150,790,288,923,804,378,215,828,592,281,565,555,710,82,896,831,547,261,524,462,293,465,502,56,661,821,976,991,658,869,905,758,745,193,768,550,608,933,378,286,215,979,792,961,61,688,793,644,986,403,106,366,905,644,372,567,466,434,645,210,389,550,919,135,780,773,635,389,707,100,626,958,165,504,920,176,193,713,857,265,203,50,668,108,645,990,626,197,510,357,358,850,858,364,936,638]),t.t)
 B.JD=new A.eb("CraftBay","E-commerce Shopping App","assets/images/ecom_ui.webp","https://drive.google.com/drive/folders/1K8BsOiFdQnMvQ4681hyq6VBCCwVw5cHt?usp=drive_link")
 B.JG=new A.eb("ParcelFly","Deliveryman App","assets/images/parcelfly_ui.webp","https://delivery.bugbuild.com/")
@@ -82028,15 +82027,16 @@ B.Ej=A.a(s([82,73,70,70,null,null,null,null,87,69,66,80]),t.Z)
 B.CX=new A.jr(B.Ej,"image/webp")
 B.E7=A.a(s([66,77]),t.Z)
 B.CW=new A.jr(B.E7,"image/bmp")
-B.Et=A.a(s([B.CV,B.CZ,B.D_,B.CY,B.CX,B.CW]),A.ae("q<jr>"))
+B.Es=A.a(s([B.CV,B.CZ,B.D_,B.CY,B.CX,B.CW]),A.ae("q<jr>"))
 B.kX=new A.m(419430400)
 B.HY=new A.f(0,2)
 B.yW=new A.d0(0.75,B.bm,B.kX,B.HY,1.5)
-B.Eu=A.a(s([B.yW]),t.sq)
-B.Ev=A.a(s([0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,0,0,0]),t.t)
+B.Et=A.a(s([B.yW]),t.sq)
+B.Eu=A.a(s([0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,0,0,0]),t.t)
 B.FA=new A.la("en","US")
 B.m5=A.a(s([B.FA]),t.ss)
 B.m6=A.a(s([0,0,65490,12287,65535,34815,65534,18431]),t.t)
+B.Ev=A.a(s(["Version control with Git & GitHub","Mobile Development best practices","Published over 30+ Apps to PlayStore","Familiar with MVVM, MVC Design patterns ","Familiar with Layered and Clean Architecture ","Writing Clean, Maintainable and Scalable code"]),t.s)
 B.Io=new A.f(-2,-2)
 B.yY=new A.d0(0,B.bm,B.iS,B.Io,3)
 B.I7=new A.f(2,2)
@@ -82053,7 +82053,7 @@ B.Me=new A.lG("assets/icons/wp.webp","https://wa.me/1789428209")
 B.Md=new A.lG("assets/icons/up.webp","https://www.upwork.com/freelancers/~0167d503217fe0bfc3")
 B.Ma=new A.lG("assets/icons/fi.webp","https://www.fiverr.com/zunaedworklab")
 B.ED=A.a(s([B.Mc,B.Mb,B.Me,B.Md,B.Ma]),A.ae("q<lG>"))
-B.EE=A.a(s(["Git & Github","Knowledge in SDLC","Published over 30+ Apps to PlayStore","Mobile Development best practices","Familiar with MVVM, MVC Architecture"]),t.s)
+B.EE=A.a(s(["Proficient in Dart Language","Understanding of Dart OOP Concepts","Expertise in Flutter Framework","Responsive & Adaptive UI Design","Experience with REST API Integration","State Management with Get-x, Provider","Local Database & Caching","Google Map Integration","Firebase Push Notification","Firebase Authentication & CRUD","Google Play Store App publishing"]),t.s)
 B.EH=A.a(s([23,114,69,56,80,144]),t.t)
 B.EG=A.a(s([49,65,89,38,83,89]),t.t)
 B.Jy=new A.eb("GroFresh","Grocery App","assets/images/grofresh.png","https://codecanyon.net/item/grofresh-grocery-pharmacy-ecommerce-store-app-and-web-with-laravel-admin-panel-delivery-app/32791631?s_rank=21")
@@ -82208,19 +82208,19 @@ B.bO=new A.H7(0,"min")
 B.P=new A.H7(1,"max")
 B.mo=new A.d(42)
 B.r4=new A.d(8589935146)
-B.Eo=A.a(s([B.mo,null,null,B.r4]),t.L)
+B.En=A.a(s([B.mo,null,null,B.r4]),t.L)
 B.qR=new A.d(43)
 B.r5=new A.d(8589935147)
-B.Ep=A.a(s([B.qR,null,null,B.r5]),t.L)
+B.Eo=A.a(s([B.qR,null,null,B.r5]),t.L)
 B.qS=new A.d(45)
 B.r6=new A.d(8589935149)
-B.Eq=A.a(s([B.qS,null,null,B.r6]),t.L)
+B.Ep=A.a(s([B.qS,null,null,B.r6]),t.L)
 B.qT=new A.d(46)
 B.cc=new A.d(8589935150)
-B.Er=A.a(s([B.qT,null,null,B.cc]),t.L)
+B.Eq=A.a(s([B.qT,null,null,B.cc]),t.L)
 B.qU=new A.d(47)
 B.r7=new A.d(8589935151)
-B.Es=A.a(s([B.qU,null,null,B.r7]),t.L)
+B.Er=A.a(s([B.qU,null,null,B.r7]),t.L)
 B.qV=new A.d(48)
 B.iL=new A.d(8589935152)
 B.EX=A.a(s([B.qV,null,null,B.iL]),t.L)
@@ -82281,7 +82281,7 @@ B.Ed=A.a(s([B.dJ,null,null,B.dP]),t.L)
 B.dK=new A.d(4294968072)
 B.DA=A.a(s([B.dK,null,null,B.dR]),t.L)
 B.Fw=A.a(s([B.bN,B.bN,B.cb,null]),t.L)
-B.H6=new A.cL(["*",B.Eo,"+",B.Ep,"-",B.Eq,".",B.Er,"/",B.Es,"0",B.EX,"1",B.EY,"2",B.EZ,"3",B.F_,"4",B.F0,"5",B.F1,"6",B.F2,"7",B.F3,"8",B.EQ,"9",B.ER,"Alt",B.Ft,"AltGraph",B.EW,"ArrowDown",B.E8,"ArrowLeft",B.E9,"ArrowRight",B.Ea,"ArrowUp",B.DX,"Clear",B.Eh,"Control",B.Fu,"Delete",B.Ef,"End",B.Eb,"Enter",B.E6,"Home",B.Ec,"Insert",B.Ei,"Meta",B.Fv,"PageDown",B.Ed,"PageUp",B.DA,"Shift",B.Fw],A.ae("cL<B,S<d?>>"))
+B.H6=new A.cL(["*",B.En,"+",B.Eo,"-",B.Ep,".",B.Eq,"/",B.Er,"0",B.EX,"1",B.EY,"2",B.EZ,"3",B.F_,"4",B.F0,"5",B.F1,"6",B.F2,"7",B.F3,"8",B.EQ,"9",B.ER,"Alt",B.Ft,"AltGraph",B.EW,"ArrowDown",B.E8,"ArrowLeft",B.E9,"ArrowRight",B.Ea,"ArrowUp",B.DX,"Clear",B.Eh,"Control",B.Fu,"Delete",B.Ef,"End",B.Eb,"Enter",B.E6,"Home",B.Ec,"Insert",B.Ei,"Meta",B.Fv,"PageDown",B.Ed,"PageUp",B.DA,"Shift",B.Fw],A.ae("cL<B,S<d?>>"))
 B.DO=A.a(s([42,null,null,8589935146]),t.Z)
 B.DP=A.a(s([43,null,null,8589935147]),t.Z)
 B.DR=A.a(s([45,null,null,8589935149]),t.Z)
