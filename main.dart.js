@@ -6669,7 +6669,7 @@ if(r==null)r=3
 s=b==null?null:b.a
 r=A.L(r,s==null?3:s,c)
 r.toString
-return B.mz[A.aIv(B.c.a0(r),0,8)]},
+return B.my[A.aIv(B.c.a0(r),0,8)]},
 apO(a,b,c){var s=a==null,r=s?null:a.a,q=b==null
 if(r==(q?null:b.a))s=s&&q
 else s=!0
@@ -34431,11 +34431,11 @@ gSt(){var s=this.a
 if(s instanceof A.eb)return s
 return this.a=new A.eb(s)},
 gaj5(){var s,r,q,p,o,n=this
-if(n.c===1)return B.mx
+if(n.c===1)return B.mw
 s=n.d
 r=J.aZ(s)
 q=r.gD(s)-J.cu(n.e)-n.f
-if(q===0)return B.mx
+if(q===0)return B.mw
 p=[]
 for(o=0;o<q;++o)p.push(r.j(s,o))
 p.$flags=3
@@ -38628,14 +38628,14 @@ A.VE.prototype={
 cR(a){var s,r,q,p,o,n=this
 if(a===0)return 0
 if(n.c===0){n.c=8
-n.b=n.a.dq()}for(s=n.a,r=s.a,q=J.aZ(r),p=0;o=n.c,a>o;){p=B.f.m8(p,o)+(n.b&B.mA[o])
+n.b=n.a.dq()}for(s=n.a,r=s.a,q=J.aZ(r),p=0;o=n.c,a>o;){p=B.f.m8(p,o)+(n.b&B.mz[o])
 a-=o
 n.c=8
 n.b=q.j(r,s.b++)}if(a>0){if(o===0){n.c=8
 n.b=s.dq()}s=B.f.m8(p,a)
 r=n.b
 q=n.c-a
-p=s+(B.f.Vp(r,q)&B.mA[a])
+p=s+(B.f.Vp(r,q)&B.mz[a])
 n.c=q}return p}}
 A.V1.prototype={
 adY(a,b){var s,r,q,p,o=this,n=new A.VE(a)
@@ -51389,7 +51389,7 @@ p=h.gmh()
 o=h.r
 o=o==null?g:o*a2+a1
 n=h.w
-n=n==null?g:B.mz[B.f.di(n.a,0,8)]
+n=n==null?g:B.my[B.f.di(n.a,0,8)]
 m=h.y
 m=m==null?g:m+0
 l=h.z
@@ -52141,8 +52141,8 @@ s=r.V
 r.a7=s==null?null:s.gHa()
 a.a=!1},
 or(a,b,c){var s,r,q,p,o=this
-o.f6=A.arr(o.f6,B.my)
-o.f7=A.arr(o.f7,B.my)
+o.f6=A.arr(o.f6,B.mx)
+o.f7=A.arr(o.f7,B.mx)
 s=o.f6
 r=s!=null&&!s.ga_(s)
 s=o.f7
@@ -60582,7 +60582,7 @@ A.fx.prototype={
 G(){return"ModifierKey."+this.b}}
 A.yh.prototype={
 gahM(){var s,r,q=A.w(t.xS,t.Di)
-for(s=0;s<9;++s){r=B.mB[s]
+for(s=0;s<9;++s){r=B.mA[s]
 if(this.ah1(r))q.m(0,r,B.cP)}return q}}
 A.k1.prototype={}
 A.a6d.prototype={
@@ -60616,7 +60616,7 @@ i=$.ix
 if(i!=null)i.$1(new A.bp(r,q,"services library",j,p,!1))}}return!1},
 aas(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g=a1.c,f=g.gahM(),e=t.v3,d=A.w(e,t.r),c=A.aE(e),b=this.d,a=A.el(new A.b1(b,A.k(b).h("b1<1>")),e),a0=a1 instanceof A.lI
 if(a0)a.F(0,g.giT())
-for(s=g.a,r=null,q=0;q<9;++q){p=B.mB[q]
+for(s=g.a,r=null,q=0;q<9;++q){p=B.mA[q]
 o=$.awk()
 n=o.j(0,new A.cy(p,B.bD))
 if(n==null)continue
@@ -79996,14 +79996,14 @@ SA(a){return A.oT("Hi, I'm Zunayed !",null,B.bq.ady(A.al(a,null,t.w).w.a.a>=1200
 A.HQ.prototype={
 L(a){var s,r,q=null,p=t.w,o=A.al(a,q,p).w.a.a>=1200?B.aS:B.aS.es(25)
 if(A.al(a,q,p).w.a.a>=1200){s=J.wT(6,t.l7)
-for(r=0;r<6;++r)s[r]=new A.nW(B.mw[r],q)
+for(r=0;r<6;++r)s[r]=new A.nW(B.mv[r],q)
 p=new A.LM(16,B.xX,16,s,q)}else p=A.a17(new A.a1c(),6,B.eZ,B.cV,!1,new A.a1d(),!0)
 return A.dQ(A.b([new A.iA("Live Projects :",o,q),B.aA,B.aA,p],t.p),B.ab,B.Q)}}
 A.a1d.prototype={
 $2(a,b){return B.xt},
 $S:69}
 A.a1c.prototype={
-$2(a,b){return new A.nW(B.mw[b],null)},
+$2(a,b){return new A.nW(B.mv[b],null)},
 $S:478}
 A.Ix.prototype={
 L(a){var s=null,r=t.w,q=A.al(a,s,r).w,p=A.al(a,s,r).w.a.a>=1200?350:300,o=A.al(a,s,r).w.a.a>=1200?B.T:B.ab,n=A.al(a,s,r).w.a.a>=1200?B.aS:B.aS.es(25)
@@ -80037,10 +80037,10 @@ $S:71}
 A.LL.prototype={
 L(a){var s,r,q,p=null,o=A.al(a,p,t.w).w.a.a>=1200,n=o?B.aS:B.aS.es(25),m=t.l7
 if(o){s=J.wT(3,m)
-for(m=t.p,r=0;r<3;++r){q=A.b([new A.wg(B.mv[r],p)],m)
+for(m=t.p,r=0;r<3;++r){q=A.b([new A.wg(B.mB[r],p)],m)
 if(r!==2)q.push(new A.vG(!1,p))
 s[r]=A.hY(q,B.T,B.aN,B.bV)}m=A.hY(s,B.T,B.aN,B.Q)}else{s=J.wT(3,m)
-for(m=t.p,r=0;r<3;++r){q=A.b([new A.wg(B.mv[r],p)],m)
+for(m=t.p,r=0;r<3;++r){q=A.b([new A.wg(B.mB[r],p)],m)
 if(r!==2)q.push(B.BO)
 s[r]=A.dQ(q,B.T,B.bV)}m=A.dQ(s,B.T,B.Q)}return A.dQ(A.b([new A.iA("Work Experiences :",n,p),B.aA,B.aA,m],t.p),B.ab,B.Q)}}
 A.vG.prototype={
@@ -83949,10 +83949,6 @@ B.l9=new A.A(0.09803921568627451,0,0,0,B.i)
 B.zb=new A.d4(0.2,B.yN,B.l9,B.e,11)
 B.EV=A.b(s([B.zb]),t.sq)
 B.mu=A.b(s([B.mj,B.mk,B.ml]),A.af("n<qN>"))
-B.CB=new A.qf("vEarth","Software Engineer","Apr 2025 - Present","Full-Time - Remote, Singapore","https://vearth.co")
-B.CD=new A.qf("6amTech","Intern Software Engineer","Oct 2024 - Jan 2025","Full-Time - Onsite, Mirpur DOHS","https://6amtech.com")
-B.CC=new A.qf("BugBuild Lab","Flutter Developer","Apr 2024 - Jul 2024","Full-Time - Remote, Feni","https://www.bugbuild.com")
-B.mv=A.b(s([B.CB,B.CD,B.CC]),A.af("n<qf>"))
 B.MW=new A.zD(0,"left")
 B.MX=new A.zD(1,"right")
 B.EW=A.b(s([B.MW,B.MX]),A.af("n<zD>"))
@@ -83978,7 +83974,7 @@ B.K1=new A.en("GroFresh","Grocery App","assets/images/grofresh.png","https://cod
 B.K4=new A.en("StackFood","Restaurant App","assets/images/stackfood.png","https://codecanyon.net/item/stackfood-multi-restaurant-food-delivery-app-with-laravel-admin-and-restaurant-panel-v10/33571750?s_rank=20")
 B.JY=new A.en("SixValley","E-commerce App","assets/images/sixvalley.png","https://codecanyon.net/item/6valley-multivendor-ecommerce-complete-ecommerce-mobile-app-web-and-admin-panel/31448597?s_rank=22")
 B.K0=new A.en("JobNect","Job Portal App","assets/images/jobnect.png","https://codecanyon.net/item/jobnect-the-job-seeking-finding-applicant-app/54309349")
-B.mw=A.b(s([B.K2,B.JU,B.K1,B.K4,B.JY,B.K0]),t.th)
+B.mv=A.b(s([B.K2,B.JU,B.K1,B.K4,B.JY,B.K0]),t.th)
 B.DC=new A.qG(0,"leftAlign")
 B.DD=new A.qG(1,"rightAlign")
 B.F6=A.b(s([B.DC,B.DD,B.iC]),A.af("n<qG>"))
@@ -84008,7 +84004,7 @@ B.Iw=new A.h(2,2)
 B.z9=new A.d4(0,B.bw,B.bF,B.Iw,3)
 B.iI=A.b(s([B.zc,B.z9]),t.sq)
 B.Fj=A.b(s([]),t.QP)
-B.my=A.b(s([]),A.af("n<aKK>"))
+B.mx=A.b(s([]),A.af("n<aKK>"))
 B.Fl=A.b(s([]),t.E)
 B.Fo=A.b(s([]),t.fJ)
 B.Fn=A.b(s([]),t.ER)
@@ -84023,7 +84019,7 @@ B.Fm=A.b(s([]),t.Lx)
 B.Fp=A.b(s([]),t.fm)
 B.U_=A.b(s([]),t.p)
 B.Fe=A.b(s([]),t.t)
-B.mx=A.b(s([]),t.ee)
+B.mw=A.b(s([]),t.ee)
 B.Fk=A.b(s([]),t.XS)
 B.CP=new A.fZ(0)
 B.CQ=new A.fZ(1)
@@ -84031,13 +84027,13 @@ B.CR=new A.fZ(2)
 B.A=new A.fZ(3)
 B.ap=new A.fZ(4)
 B.CS=new A.fZ(7)
-B.mz=A.b(s([B.CP,B.CQ,B.CR,B.A,B.ap,B.fe,B.iA,B.CS,B.iB]),A.af("n<fZ>"))
+B.my=A.b(s([B.CP,B.CQ,B.CR,B.A,B.ap,B.fe,B.iA,B.CS,B.iB]),A.af("n<fZ>"))
 B.Fu=A.b(s(["Version control with Git & GitHub","Mobile Development best practices","Familiar with MVVM, MVC Design patterns ","Familiar with Layered and Clean Architecture ","Writing Clean, Maintainable and Scalable code"]),t.s)
 B.Im=new A.h(0,2)
 B.za=new A.d4(0.75,B.bw,B.l9,B.Im,1.5)
 B.Fv=A.b(s([B.za]),t.sq)
 B.Fw=A.b(s([0,1996959894,3993919788,2567524794,124634137,1886057615,3915621685,2657392035,249268274,2044508324,3772115230,2547177864,162941995,2125561021,3887607047,2428444049,498536548,1789927666,4089016648,2227061214,450548861,1843258603,4107580753,2211677639,325883990,1684777152,4251122042,2321926636,335633487,1661365465,4195302755,2366115317,997073096,1281953886,3579855332,2724688242,1006888145,1258607687,3524101629,2768942443,901097722,1119000684,3686517206,2898065728,853044451,1172266101,3705015759,2882616665,651767980,1373503546,3369554304,3218104598,565507253,1454621731,3485111705,3099436303,671266974,1594198024,3322730930,2970347812,795835527,1483230225,3244367275,3060149565,1994146192,31158534,2563907772,4023717930,1907459465,112637215,2680153253,3904427059,2013776290,251722036,2517215374,3775830040,2137656763,141376813,2439277719,3865271297,1802195444,476864866,2238001368,4066508878,1812370925,453092731,2181625025,4111451223,1706088902,314042704,2344532202,4240017532,1658658271,366619977,2362670323,4224994405,1303535960,984961486,2747007092,3569037538,1256170817,1037604311,2765210733,3554079995,1131014506,879679996,2909243462,3663771856,1141124467,855842277,2852801631,3708648649,1342533948,654459306,3188396048,3373015174,1466479909,544179635,3110523913,3462522015,1591671054,702138776,2966460450,3352799412,1504918807,783551873,3082640443,3233442989,3988292384,2596254646,62317068,1957810842,3939845945,2647816111,81470997,1943803523,3814918930,2489596804,225274430,2053790376,3826175755,2466906013,167816743,2097651377,4027552580,2265490386,503444072,1762050814,4150417245,2154129355,426522225,1852507879,4275313526,2312317920,282753626,1742555852,4189708143,2394877945,397917763,1622183637,3604390888,2714866558,953729732,1340076626,3518719985,2797360999,1068828381,1219638859,3624741850,2936675148,906185462,1090812512,3747672003,2825379669,829329135,1181335161,3412177804,3160834842,628085408,1382605366,3423369109,3138078467,570562233,1426400815,3317316542,2998733608,733239954,1555261956,3268935591,3050360625,752459403,1541320221,2607071920,3965973030,1969922972,40735498,2617837225,3943577151,1913087877,83908371,2512341634,3803740692,2075208622,213261112,2463272603,3855990285,2094854071,198958881,2262029012,4057260610,1759359992,534414190,2176718541,4139329115,1873836001,414664567,2282248934,4279200368,1711684554,285281116,2405801727,4167216745,1634467795,376229701,2685067896,3608007406,1308918612,956543938,2808555105,3495958263,1231636301,1047427035,2932959818,3654703836,1088359270,936918e3,2847714899,3736837829,1202900863,817233897,3183342108,3401237130,1404277552,615818150,3134207493,3453421203,1423857449,601450431,3009837614,3294710456,1567103746,711928724,3020668471,3272380065,1510334235,755167117]),t.t)
-B.mA=A.b(s([0,1,3,7,15,31,63,127,255]),t.t)
+B.mz=A.b(s([0,1,3,7,15,31,63,127,255]),t.t)
 B.FB=A.b(s([16,17,18,0,8,7,9,6,10,5,11,4,12,3,13,2,14,1,15]),t.t)
 B.dL=A.b(s([B.c5,B.bu,B.ev,B.ew,B.hA]),t.QP)
 B.CY=new A.H4(null)
@@ -84073,8 +84069,12 @@ B.j9=new A.fx(5,"numLockModifier")
 B.ja=new A.fx(6,"scrollLockModifier")
 B.jb=new A.fx(7,"functionModifier")
 B.rJ=new A.fx(8,"symbolModifier")
-B.mB=A.b(s([B.cQ,B.cR,B.cS,B.cT,B.j8,B.j9,B.ja,B.jb,B.rJ]),A.af("n<fx>"))
+B.mA=A.b(s([B.cQ,B.cR,B.cS,B.cT,B.j8,B.j9,B.ja,B.jb,B.rJ]),A.af("n<fx>"))
 B.iM=A.b(s([!0,!1]),t.HZ)
+B.CB=new A.qf("HELF AI","Software Engineer","Apr 2025 - Present","Full-Time - Remote, Singapore","https://vearth.co")
+B.CD=new A.qf("6amTech","Intern Software Engineer","Oct 2024 - Jan 2025","Full-Time - Onsite, Mirpur DOHS","https://6amtech.com")
+B.CC=new A.qf("BugBuild Lab","Flutter Developer","Apr 2024 - Jul 2024","Full-Time - Remote, Feni","https://www.bugbuild.com")
+B.mB=A.b(s([B.CB,B.CD,B.CC]),A.af("n<qf>"))
 B.FN=A.b(s([8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,8,8,8,8,8,8,8]),t.t)
 B.MV=new A.zC("Bachelor of Science","Northern University Bangladesh","Computer Science & Engineering","From 2024 - Present")
 B.MU=new A.zC("Diploma in Engineering","Munshiganj Polytechnic Institute","Computer Technology","From 2019 to 2023")
